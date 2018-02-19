@@ -35,6 +35,7 @@ class Editor():
         filemenu.add_command(label="Save", underline=1, command=self.file_save, accelerator="Ctrl+S")
         filemenu.add_command(label="Save As...", underline=5, command=self.file_save_as, accelerator="Ctrl+Alt+S")
         filemenu.add_command(label="Run Python3", underline=5, command=self.file_run, accelerator="Ctrl+R")
+        filemenu.add_command(label="Run Python2", underline = 5, command=self.file_run2, accelerator="Ctrl+2")
         filemenu.add_separator()
         filemenu.add_command(label="Exit", underline=2, command=self.file_quit, accelerator="Alt+F4")
         self.menubar.add_cascade(label="File", underline=0, menu=filemenu)        
@@ -102,6 +103,9 @@ class Editor():
 
     def file_run(self, event=None):
         os.system("Python3 " + self.file_path)
+
+    def file_run2(self, event=None):
+        os.system("Python " + self.file_path)
 
     def file_quit(self, event=None):
         result = self.save_if_modified()
