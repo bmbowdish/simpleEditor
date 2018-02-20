@@ -1,6 +1,6 @@
-##Simple robust Text Editor in tkinter and Python 3
+## Simple robust Text Editor in tkinter and Python 3
 
-###Screenshot
+### Screenshot
 
 <img src="https://www.csh.rit.edu/~bmbowdish/simpleEditor/example.png"></img>
 
