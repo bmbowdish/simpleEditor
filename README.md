@@ -1,7 +1,8 @@
 ##Simple robust Text Editor in tkinter and Python 3
 
 ###Screenshot
-<img src="https://sureshsubedi.files.wordpress.com/2015/07/text-editor1.png"></img>
+
+<img src="https://www.csh.rit.edu/~bmbowdish/simpleEditor/example.png"></img>
 
 **How to make a simple but robust text editor in tkinter**
 
